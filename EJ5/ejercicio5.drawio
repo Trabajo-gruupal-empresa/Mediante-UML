@@ -17,13 +17,13 @@
                     <mxGeometry x="750" y="370" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="6" value="VACACIONES" style="html=1;" vertex="1" parent="1">
-                    <mxGeometry x="40" y="370" width="110" height="50" as="geometry"/>
+                    <mxGeometry x="359" y="310" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="8" value="STOCK" style="html=1;" vertex="1" parent="1">
                     <mxGeometry x="110" y="80" width="110" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="15" value="DIETA" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-                    <mxGeometry x="310" y="370" width="140" height="80" as="geometry"/>
+                    <mxGeometry x="40" y="240" width="140" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="16" value="CARNÍVORO&#10;HERBÍVORO&#10;INSECTIVORO" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="15">
                     <mxGeometry y="26" width="140" height="54" as="geometry"/>
@@ -84,6 +84,20 @@
                 </mxCell>
                 <mxCell id="30" value="0...n" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
                     <mxGeometry x="469" y="200" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="endArrow=diamondThin;endFill=1;endSize=24;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6" target="3">
+                    <mxGeometry width="160" relative="1" as="geometry">
+                        <mxPoint x="350" y="220" as="sourcePoint"/>
+                        <mxPoint x="410" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="0..n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="31">
+                    <mxGeometry x="0.7462" y="3" relative="1" as="geometry">
+                        <mxPoint x="-21" y="-1" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="33" value="1" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="280" width="60" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
