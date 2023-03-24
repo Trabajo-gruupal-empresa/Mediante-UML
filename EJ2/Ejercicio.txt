@@ -1,0 +1,20 @@
+Para cada uno de los siguientes pares de conceptos, indique si, desde el punto de vista del modelado de software, estos pares deben estar vinculados por una agregación o una composición, y por qué.
+
+1.Aeropuerto / Avión
+
+Esta relacion es de agregacion porque puede haber mas aviones en otros espacios, asi como en el aire
+
+2.Continente / País
+
+Esta es una relacion de composicion ya que un pais siempre debe estar dentro de un continente
+
+3.Molécula / Átomo
+
+Este caso al igual que el anterior, tambien es de composicion ya que una molecula esta compuesto por un numero de atomos, exactamente 6.022*10^22
+
+4.Colmena / Abeja
+
+Al igual que el primero es una relacion de agregacion ya que la colmena contiene abejas pero estas se puden hayar en otros medios
+
+5.Muñeca rusa / Muñeca rusa
+
